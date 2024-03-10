@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;1,700;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        line-height: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        height: 1200px;
+        overflow: hidden;
+        text-align: left;
+        font-size: 32px;
+        color: #000;
+        font-family: Inter;
+      "
+    >
+      <img
+        style="
+          position: absolute;
+          top: calc(35px);
+          left: calc(5px);
+          width: 245px;
+          height: 186px;
+          object-fit: cover;
+        "
+        alt=""
+        src="./public/logo-1@2x.png"
+      />
+
+      <img
+        style="
+          position: absolute;
+          top: 189px;
+          left: 0px;
+          width: 1000px;
+          height: 811px;
+          object-fit: cover;
+        "
+        alt=""
+        src="./public/farmer-1@2x.png"
+      />
+
+      <div
+        style="
+          position: absolute;
+          top: 211px;
+          left: 731px;
+          display: inline-block;
+          width: 214px;
+          height: 34px;
+        "
+      >
+        Welcome user
+      </div>
+      <div
+        style="
+          position: absolute;
+          top: 250px;
+          left: 731px;
+          color: #371ca2;
+          display: inline-block;
+          width: 252px;
+          height: 43px;
+        "
+      >
+        Login & Register
+      </div>
+      <img
+        style="
+          position: absolute;
+          top: 197px;
+          left: 624px;
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+        "
+        alt=""
+        src="./public/account@2x.png"
+      />
+
+      <b
+        style="
+          position: absolute;
+          top: 378px;
+          left: 412px;
+          font-size: 40px;
+          text-decoration: underline;
+          display: inline-block;
+          width: 499px;
+          height: 52px;
+        "
+        >FEATURED CATEGORIES</b
+      >
+      <img
+        style="
+          position: absolute;
+          top: 465px;
+          left: 412px;
+          width: 200px;
+          height: 150px;
+          object-fit: cover;
+        "
+        alt=""
+        src="./public/fresh-food-1@2x.png"
+      />
+
+      <b
+        style="
+          position: absolute;
+          top: 482px;
+          left: 638px;
+          display: inline-block;
+          width: 283px;
+          height: 44px;
+          cursor: pointer;
+        "
+        id="freshVegetablesText"
+        >Fresh Vegetables</b
+      >
+      <img
+        style="
+          position: absolute;
+          top: 700px;
+          left: 422px;
+          width: 200px;
+          height: 150px;
+          object-fit: cover;
+        "
+        alt=""
+        src="./public/grain-main-1@2x.png"
+      />
+
+      <b
+        style="
+          position: absolute;
+          top: 82px;
+          left: 258px;
+          font-size: 64px;
+          display: inline-block;
+          text-align: center;
+          width: 664px;
+          height: 115px;
+        "
+        >FOOD FARM HUB</b
+      >
+      <b
+        style="
+          position: absolute;
+          top: 716px;
+          left: 638px;
+          display: inline-block;
+          width: 121px;
+          height: 30px;
+          cursor: pointer;
+        "
+        id="grainsText"
+        >Grains</b
+      >
+      <b
+        style="
+          position: absolute;
+          top: 1081px;
+          left: 94px;
+          font-size: 24px;
+          display: inline-block;
+          width: 835px;
+          height: 67px;
+        "
+        >"Agriculture is our wisest pursuit, because it will in the end
+        contribute most to real wealth, good morals & happiness.”</b
+      >
+      <div
+        style="
+          position: absolute;
+          top: 217px;
+          left: 41px;
+          width: 196px;
+          height: 309px;
+        "
+      >
+        <div
+          style="
+            position: absolute;
+            top: 0px;
+            left: 29px;
+            color: #371ca2;
+            display: inline-block;
+            width: 91px;
+            height: 33px;
+          "
+        >
+          Home
+        </div>
+        <div
+          style="
+            position: absolute;
+            top: 92px;
+            left: 27px;
+            display: inline-block;
+            width: 135px;
+            height: 33px;
+            cursor: pointer;
+          "
+          id="supplierText"
+        >
+          Supplier
+        </div>
+        <div
+          style="
+            position: absolute;
+            top: 138px;
+            left: 29px;
+            display: inline-block;
+            width: 135px;
+            height: 33px;
+            cursor: pointer;
+          "
+          id="ordersText"
+        >
+          Orders
+        </div>
+        <div
+          style="
+            position: absolute;
+            top: 184px;
+            left: 29px;
+            display: inline-block;
+            width: 135px;
+            height: 33px;
+            cursor: pointer;
+          "
+          id="exploreText"
+        >
+          Explore
+        </div>
+        <div
+          style="
+            position: absolute;
+            top: 276px;
+            left: 27px;
+            display: inline-block;
+            width: 184px;
+            height: 33px;
+            cursor: pointer;
+          "
+          id="contectUsText"
+        >
+          Contect us
+        </div>
+        <div
+          style="
+            position: absolute;
+            top: 230px;
+            left: 27px;
+            display: inline-block;
+            width: 184px;
+            height: 33px;
+            cursor: pointer;
+          "
+          id="communityText"
+        >
+          Community
+        </div>
+        <div
+          style="
+            position: absolute;
+            top: 46px;
+            left: 29px;
+            display: inline-block;
+            width: 97px;
+            height: 33px;
+            cursor: pointer;
+          "
+          id="buyerText"
+        >
+          Buyer
+        </div>
+        <div
+          style="
+            position: absolute;
+            top: 12px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: #371ca2;
+            width: 15px;
+            height: 15px;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            top: 57px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: #0f0d0d;
+            width: 15px;
+            height: 15px;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            top: 101px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: #0f0d0d;
+            width: 15px;
+            height: 15px;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            top: 147px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: #0f0d0d;
+            width: 15px;
+            height: 15px;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            top: 193px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: #0f0d0d;
+            width: 15px;
+            height: 15px;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            top: 240px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: #0f0d0d;
+            width: 15px;
+            height: 15px;
+          "
+        ></div>
+        <div
+          style="
+            position: absolute;
+            top: 285px;
+            left: 0px;
+            border-radius: 50%;
+            background-color: #0f0d0d;
+            width: 15px;
+            height: 15px;
+          "
+        ></div>
+      </div>
+    </div>
+
+    <script>
+      var freshVegetablesText = document.getElementById("freshVegetablesText");
+      if (freshVegetablesText) {
+        freshVegetablesText.addEventListener("click", function (e) {
+          window.location.href = "./product-list-food.html";
+        });
+      }
+
+      var grainsText = document.getElementById("grainsText");
+      if (grainsText) {
+        grainsText.addEventListener("click", function (e) {
+          window.location.href = "./product-list-grains.html";
+        });
+      }
+
+      var supplierText = document.getElementById("supplierText");
+      if (supplierText) {
+        supplierText.addEventListener("click", function (e) {
+          window.location.href = "./supplier-info.html";
+        });
+      }
+
+      var ordersText = document.getElementById("ordersText");
+      if (ordersText) {
+        ordersText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+
+      var exploreText = document.getElementById("exploreText");
+      if (exploreText) {
+        exploreText.addEventListener("click", function (e) {
+          window.location.href = "./explore.html";
+        });
+      }
+
+      var contectUsText = document.getElementById("contectUsText");
+      if (contectUsText) {
+        contectUsText.addEventListener("click", function (e) {
+          window.location.href = "./contect-us.html";
+        });
+      }
+
+      var communityText = document.getElementById("communityText");
+      if (communityText) {
+        communityText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+
+      var buyerText = document.getElementById("buyerText");
+      if (buyerText) {
+        buyerText.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+    </script>
+  </body>
+</html>

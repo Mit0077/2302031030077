@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;1,700;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@400&display=swap"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        line-height: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        height: 1200px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 32px;
+        color: #371ca2;
+        font-family: Inter;
+      "
+    >
+      <img
+        style="
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 1000px;
+          height: 1200px;
+          object-fit: cover;
+        "
+        alt=""
+        src="./public/farmer-11@2x.png"
+      />
+
+      <div
+        style="
+          position: absolute;
+          top: 311px;
+          left: 205px;
+          background-color: #d9d9d9;
+          width: 589px;
+          height: 548px;
+          opacity: 0.8;
+        "
+      ></div>
+      <div
+        style="
+          position: absolute;
+          top: 800px;
+          left: 500px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          cursor: pointer;
+        "
+        id="goBackTo"
+      >
+        Go Back To Home
+      </div>
+      <img
+        style="
+          position: absolute;
+          top: 385px;
+          left: 400px;
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          object-fit: cover;
+        "
+        alt=""
+        src="./public/iconparksolidcaution@2x.png"
+      />
+
+      <b
+        style="
+          position: absolute;
+          top: 631px;
+          left: 253px;
+          font-size: 24px;
+          display: inline-block;
+          color: #000;
+          width: 473px;
+          height: 201px;
+        "
+      >
+        <ul
+          style="
+            margin: 0;
+            font-family: inherit;
+            font-size: inherit;
+            padding-left: 32px;
+          "
+        >
+          <li style="margin-bottom: 0px">This Page Is Under Development</li>
+          <li style="margin-bottom: 0px">
+            It will Be out As Soon As possipossible
+          </li>
+          <li>Stay Connected To Our Site For Further DetaDetails</li>
+        </ul>
+      </b>
+    </div>
+
+    <script>
+      var goBackTo = document.getElementById("goBackTo");
+      if (goBackTo) {
+        goBackTo.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+    </script>
+  </body>
+</html>
